@@ -9,6 +9,8 @@ import androidx.core.graphics.Insets;
 import androidx.core.view.ViewCompat;
 import androidx.core.view.WindowInsetsCompat;
 
+import com.iamsoft.ponggame.view.GameView;
+
 public class MainActivity extends AppCompatActivity {
 
     @Override
@@ -24,6 +26,8 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void startGame(View view) {
+        GameView gameView = new GameView(this);
+        setContentView(gameView);
     }
 
     public void audioPref(View view) {

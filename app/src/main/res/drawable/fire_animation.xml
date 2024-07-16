@@ -1,0 +1,13 @@
+<!-- Animation frames are wheel0.png through wheel5.png
+    files inside the res/drawable/ folder -->
+<animation-list android:id="@+id/selected"
+    android:oneshot="false"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:drawable="@drawable/fire_1" android:duration="50" />
+    <item android:drawable="@drawable/fire_2" android:duration="50" />
+    <item android:drawable="@drawable/fire_3" android:duration="50" />
+    <item android:drawable="@drawable/fire_4" android:duration="50" />
+    <item android:drawable="@drawable/fire_3" android:duration="50" />
+    <item android:drawable="@drawable/fire_2" android:duration="50" />
+    <item android:drawable="@drawable/fire_1" android:duration="50" />
+</animation-list>
